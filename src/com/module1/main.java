@@ -129,8 +129,12 @@ public class main {
 
             System.out.println(prime);
         }
+
     }
 
+    public void hello(){
+
+    }
     // pass by value since parameter is primitive
     public static void increment_(int x){
 
