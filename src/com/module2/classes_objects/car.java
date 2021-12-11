@@ -1,4 +1,4 @@
-package com.module2;
+package com.module2.classes_objects;
 
 /* Java access modifiers for both data members(fields) and methods
 

@@ -1,4 +1,4 @@
-package com.module2;
+package com.module2.inheritance_polymorphism;
 
 /*
 *
@@ -11,7 +11,7 @@ package com.module2;
 *
 */
 
-class Enemy {
+public class Enemy {
 
     private String name;
     private int health;

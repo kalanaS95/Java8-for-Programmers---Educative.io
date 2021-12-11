@@ -1,5 +1,11 @@
 package com.module2;
 
+import com.module2.classes_objects.car;
+import com.module2.inheritance_polymorphism.Enemy;
+import com.module2.inheritance_polymorphism.Gunman;
+import com.module2.inheritance_polymorphism.Pikeman;
+import com.module2.abstraction.*;
+
 public class main {
 
     public static void main(String args[]){
@@ -21,5 +27,28 @@ public class main {
         for(Enemy x: enemy){
             x.attack();
         }
+
+        // abstraction example using super super class (calling methods using super super class)
+        // Note in this case we wont be able to call any methods/fields introduced in mamel abstract class
+        /*
+        animal animals[] = new animal[2];
+        animals[0] = new human();
+        animals[1] = new dog();
+        */
+
+        // abstraction example using super class (calling methods using super class)
+        mamel mamels[] = new mamel[2];
+        mamels[0] = new human();
+        mamels[1] = new dog();
+
+        System.out.println();
+        System.out.println("Calling functions using mamel abstract class array");
+        for(mamel x: mamels){
+            x.walk();
+            x.run();
+            x.make_sound();
+            System.out.println();
+        }
+
     }
 }

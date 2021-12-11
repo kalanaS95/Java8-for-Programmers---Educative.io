@@ -1,4 +1,4 @@
-package com.module2;
+package com.module2.inheritance_polymorphism;
 
 /*
 * EXTENDS - keyword used for inheritance.
@@ -23,7 +23,7 @@ package com.module2;
 *
 * */
 
-class Pikeman extends Enemy{
+public class Pikeman extends Enemy{
 
     private int shield_health;
     private String shield_color;

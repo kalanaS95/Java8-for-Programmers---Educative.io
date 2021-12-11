@@ -17,9 +17,9 @@
 *
 * */
 
-package com.module2;
+package com.module2.inheritance_polymorphism;
 
-class Gunman extends Enemy{
+public class Gunman extends Enemy{
 
     private int gun_type;
     private int ammo_capacity;
